@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kalkulator">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator"
+        android:textSize="100px"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/txtangka1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="masukan angka 1"
+        android:background="@drawable/rounded_edit_text"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/txtanka2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="masukan angka 2"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spoperator"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:entries="@array/aritmatik"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/btnhitung"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:background="@drawable/button_edit"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tvhasil"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HASIL"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+</LinearLayout>

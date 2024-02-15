@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logoepicgames" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Sign In or Sign up"
+        android:textSize="30dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:textColorHint="#7E7C7C"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_edit_text"
+       />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/continue_button"
+        android:layout_gravity="center"
+        android:layout_width="358dp"
+        android:layout_height="60dp"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_edit"
+        android:textColor="@color/white"
+        />
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:background="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="or continue with"
+            android:textColor="#FFFFFF" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:background="#FFFFFF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="70dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/fb2"
+        android:scaleType="fitCenter"
+        android:background="@drawable/button_fb"/>
+    <ImageButton
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="25dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/xbox"
+        android:scaleType="fitCenter"
+        android:background="@drawable/button_fb"/>
+    <ImageButton
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/google"
+        android:scaleType="fitCenter"
+        android:background="@drawable/button_fb"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_fb"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nintendo2" />
+
+        <ImageButton
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="25dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/steam"
+            android:scaleType="fitCenter"
+            android:background="@drawable/button_fb"/>
+        <ImageButton
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/ps"
+            android:scaleType="fitCenter"
+            android:background="@drawable/button_fb"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="174dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/aple"
+            android:scaleType="fitCenter"
+            android:background="@drawable/button_fb"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

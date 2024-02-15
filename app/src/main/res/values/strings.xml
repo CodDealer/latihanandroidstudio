@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">latihanandroidstudio</string>
+    <string-array name="aritmatik">
+        <item>tambah</item>
+        <item>kurang</item>
+        <item>kali</item>
+        <item>bagi</item>
+    </string-array>
+</resources>
